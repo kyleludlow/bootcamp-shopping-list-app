@@ -2,29 +2,28 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Shopping List App</title>
+    <title>Kyle's Grocery List</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
     <header>
-        <h1 class="content text-center">Kyle and Kaeside's Shopping List</h1>
+        <h1 class="text-center">Kyle's Shopping List</h1>
     </header>
-    <section class="one">
+<div class="container list-body">
+    <section>
         <div class="text-center">
             <input id="user-input" type="text" placeholder="enter list item">
             <input id="add-item" type="submit" value="Add item">
         </div>
     </section>
-    <section class="two text-center">
+    <section class="text-center">
         <ul id="shoppingList">
-            <li>Milk <button class="btn btn-danger delete">Delete Item</button></li>
+            <li>Milk <button class="btn btn-danger btn-sm delete">x</button></li>
         </ul>
     </section>
-    <footer>
-        <h2>This app was created by Kyle and Kaeside, you can see more of our work <a href="#">here</a>.</h2>
-    </footer>
+</div>
 
 <script src="http://code.jquery.com/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" ></script>

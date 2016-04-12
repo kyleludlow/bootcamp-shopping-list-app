@@ -10,18 +10,18 @@ $(document).ready(function () {
 
 // Button-click functionality
     $("#add-item").click(function () {
-        // Put text input into a variable
-        var userInput = document.getElementById('user-input');
-        var shoppingItem = userInput.value;
+
+        var shoppingItem = $('#user-input').val();
 
         if (shoppingItem == '') {
             alert("Please enter an item");
         }
         else {
-            // Append text input variable into list
-            $('#shoppingList').append('<li>' + shoppingItem + ' ' + '<button class ="btn btn-danger delete">Delete Item</button></li>');
 
-            userInput.value = '';
+            // Append text input variable into list
+            $('#shoppingList').append('<li>' + shoppingItem + ' ' + '<button class ="btn btn-danger btn-sm delete">x</button></li>');
+
+            $('#user-input').val('');
 
         }
     });
@@ -33,5 +33,5 @@ $(document).ready(function () {
 });
 
 
-// Prepend li from list
+
 

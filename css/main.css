@@ -1,27 +1,33 @@
-/*BEGIN BORDERS FOR VISUAL AIDE*/
-header {
-	border: dashed blue 3px;
+body {
+	background-image: url('https://images.unsplash.com/photo-1443146517630-ac1e04dfed9a?crop=entropy&dpr=2&fit=crop&fm=jpg&h=750&ixjsv=2.1.0&ixlib=rb-0.3.5&q=50&w=1300');
+	background-repeat: no-repeat;
+	background: cover;
 }
-section {
-	border: solid orange 3px;
-}
-footer {
-	border: dotted black 3px;
-}
-/*END BORDERS FOR VISUAL AIDE*/
 
 ul {
 	list-style: none;
 }
-
-/*BEGIN CLASSES*/
+h1 {
+	color: #FFF;
+}
 
 .text-center {
 	text-align: center;
 }
 
-/*.btn  {
-	color: red;
-	border-radius: 2px;
-}*/
-/*END CLASS*/
+
+.list-body {
+	background-image: url('http://demilked.uuuploads.com/free-paper-textures/free-paper-texture-14.jpg');
+	border-radius: 25px;
+}
+
+.container {
+	width: 33%;
+}
+
+.delete {
+	padding: 0px 5px;
+	vertical-align: text-top;
+	line-height: 1;
+
+}
