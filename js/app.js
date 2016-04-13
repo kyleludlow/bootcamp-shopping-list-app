@@ -19,7 +19,7 @@ $(document).ready(function () {
         else {
 
             // Append text input variable into list
-            $('#shoppingList').append('<li>' + shoppingItem + ' ' + '<button class ="btn btn-danger btn-sm delete">x</button></li>');
+            $('#shopping-list').append('<li class="shopping-list-item"><button class ="btn btn-danger btn-sm delete">x</button>' + ' ' + shoppingItem + '</li>');
 
             $('#user-input').val('');
 
@@ -27,7 +27,7 @@ $(document).ready(function () {
     });
 
 // Delete list item
-    $('#shoppingList').on("click", ".delete", function () {
+    $('#shopping-list').on("click", ".delete", function () {
         $(this).parent().remove()
     });
 });

@@ -9,6 +9,7 @@ ul {
 }
 h1 {
 	color: #FFF;
+	margin-top: 75px;
 }
 
 .text-center {
@@ -17,15 +18,31 @@ h1 {
 
 
 .list-body {
+	margin-top: 50px;
 	background-image: url('http://demilked.uuuploads.com/free-paper-textures/free-paper-texture-14.jpg');
-	border-radius: 25px;
+	border-radius: 15px;
 }
 
 .container {
 	width: 33%;
 }
 
+.input-div {
+	padding: 15px;
+}
+
+.shopping-list {
+	margin-top: 10px;
+	padding: 5px;
+	font-family: sans-serif;
+}
+
+.shopping-list-item {
+	padding: 3px 0px;
+}
+
 .delete {
+	margin-right: 10px;
 	padding: 0px 5px;
 	vertical-align: text-top;
 	line-height: 1;
